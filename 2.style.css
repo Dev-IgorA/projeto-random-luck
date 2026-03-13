@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+
+body {
+    background: rgb(1, 0, 15);
+    background-image: url(./Assets/Logo-Dados-Prize2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 10px;
+}
+
+.paragraph-luck {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container-inputs {
+    width: 450px;
+    height: 74px;
+    border: none;
+    text-align: center;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+label{
+    color: white;
+}
+
+#input-min, #input-max{
+    text-align: center
+}
+
+.btn-draw {
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #c24a09;
+}
+
+button:active {
+    background-color: #ff6565;
+}
+
+#result-value{
+    color: rgb(239, 194, 14);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.result-container{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(243, 243, 238)
+}
+
+.logo-dev {
+    width: 130px;
+    height: 130px;
+    margin: 20px auto;
+    display: inline;
+}

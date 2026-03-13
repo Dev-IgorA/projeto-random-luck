@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font-family - google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- estilo linkado no arquivo CSS -->
+    <link rel="stylesheet" href="./2.style.css" />
+
+    <!-- script linkado no arquivo JS -->
+    <script src="./3.script.js" defer></script>
+
+    <title>Project Random</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="title">
+        <i>SORTEADOR AUTOMÁTICO DE NÚMEROS </i>
+      </h1>
+
+      <p class="paragraph-luck"><b>Sortear número aleatório</b></p>
+
+      <div class="container-inputs">
+        <label>Mínimo</label>
+        <input type="number" id="input-min" placeholder="01" />
+        <label>Máximo</label>
+        <input type="number" id="input-max" placeholder="1000" />
+      </div>
+
+      <br />
+
+      <button class="btn-draw">Sortear</button>
+      <div class="result-container">
+        <p><u>NÚMERO SORTEADO: </u><span id="result-value">0</span></p>
+      </div>
+      <br />
+      <footer>
+        <img
+          src="./Assets/Logo-Dev-IgorA.png"
+          alt="Logo-Dev-IgorA"
+          class="logo-dev"
+        />
+      </footer>
+    </main>
+  </body>
+</html>
