@@ -28,7 +28,7 @@ Durante o desenvolvimento, foram aplicados conceitos fundamentais de Front-end:
 ### 1. Manipulação do DOM
 Uso de seletores no JavaScript para capturar os valores inseridos nos inputs (`input-min` e `input-max`) e atualizar dinamicamente o texto no HTML (`result-value`) sem a necessidade de recarregar a página.
 
-### 2. Lógica Matemática
+### 2. Operações / Lógica Matemática
 Aplicação do objeto `Math` do JavaScript, utilizando a fórmula:
 $$\text{resultado} = \text{Math.floor}(\text{Math.random}() \times (\text{max} - \text{min} + 1)) + \text{min}$$
 Isso garante que o número sorteado esteja sempre dentro do intervalo inclusivo escolhido pelo usuário.
@@ -36,10 +36,17 @@ Isso garante que o número sorteado esteja sempre dentro do intervalo inclusivo 
 ### 3. Event Listeners
 Implementação de ouvintes de eventos no botão de sorteio (`click`), tornando a interface interativa.
 
+### 4. Estrutura semântica HTML
+
+### 5. Functions
+
 ---
 
-## 🚀 Como visualizar o projeto
+## 📸 Capturas de Tela
+<img src="https://github.com/Dev-IgorA/projeto-random-luck/blob/master/Assets/Img-Projeto-Random.png?raw=true"/>
 
-1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+---
+
+## 👨‍💻 Autor
+Dev. Igor Andrade
+
